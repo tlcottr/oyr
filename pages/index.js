@@ -54,13 +54,12 @@ export default function Home() {
         </div>
         <div className="mr-4 flex flex-row">
           <h3
-            onClick={connect}
             className="cursor-pointer hover:opacity-50 transition-opacity duration-100"
           >
             {active ? (
               <span onClick={disconnect}>{shortAddress(account)}</span>
             ) : (
-              <span>Connect Wallet</span>
+              <span onClick={connect}>Connect Wallet</span>
             )}
           </h3>
           <span className="dot"></span>
