@@ -9,12 +9,6 @@ import { useEffect } from "react";
 import React from "react";
 import Item from "../components/item";
 
-const Nike = require('node-nikerunclub');
-const nike = new Nike({
-  ux_id: '',
-  client_id: ''
-});
-
 export default function Home(props) {
   const { wallet, active, account, library, connector, activate, deactivate } =
     useWeb3React();
