@@ -31,10 +31,7 @@
     font-size: 250px;
     line-height: .75;
   }
-  h3 {
-    font-family: 'Helvetica Neue';
-    font-weight: 400;
-  }
+ 
   .dot {
     height: 25px;
     width: 25px;
@@ -42,4 +39,7 @@
     border-radius: 50%;
     display: block;
     margin-left: 1rem;
+  }
+  html {
+    scroll-behavior: smooth;
   }
