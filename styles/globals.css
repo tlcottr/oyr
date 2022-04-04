@@ -43,3 +43,6 @@
     display: block;
     margin-left: 1rem;
   }
+  html {
+    scroll-behavior: smooth;
+  }
