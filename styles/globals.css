@@ -3,43 +3,26 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Futura-Condensed';
+  font-family: "Futura-Condensed";
   src: url("../public/font/Futura Extra Black Condensed Regular.otf");
   font-weight: 400;
   font-style: normal;
-  }
+}
 
-  @font-face {
-    font-family: 'Helvetica Neue';
-    src: url("../public/font/Helvetica-Neue-Light.ttf");
-    font-weight: 400;
-    font-style: normal;
-    }
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../public/font/Helvetica-Neue-Light.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
 
-    @font-face {
-      font-family: 'Helvetica Neue';
-      src: url("../public/font/HelveticaNeue-Medium.otf");
-      font-weight: 600;
-      font-style: normal;
-      }
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../public/font/HelveticaNeue-Medium.otf");
+  font-weight: 600;
+  font-style: normal;
+}
 
-  h1 {
-    font-family: 'Futura-Condensed';
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: -11px;
-    font-size: 250px;
-    line-height: .75;
-  }
- 
-  .dot {
-    height: 25px;
-    width: 25px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    display: block;
-    margin-left: 1rem;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
