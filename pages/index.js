@@ -16,7 +16,7 @@ export default function Home(props) {
           <div className="flex md:flex-row flex-col justify-between items-center">
             <p className="font-helvetica text-sm text-center md:text-left leading-[1.25em] md:w-1/2">
               When you put in the miles, nobody can take them away from you.
-              Mint your run as an NFT on the blockchain now.
+              Mint your run as an NFT on the blockchain now
             </p>
             <div className="flex flex-row my-4 md:my-[0]">
               <Link href="/about">
